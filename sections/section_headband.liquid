@@ -1,0 +1,23 @@
+{{ 'index.css' | asset_url | stylesheet_tag }}
+<!-- section headband -->
+<section class="standard">
+    <div class="headband">
+        <div class="yellow"></div>
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="orange"></div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,31 @@
+{{ 'index.css' | asset_url | stylesheet_tag }}
+<section class="standard">
+    <div class="menu">
+        <div> <img src="https://cdn.shopify.com/s/files/1/0747/2028/0885/files/tadah_logo_1.png?v=1680896133" alt=""></div>
+        <nav class="active"> 
+            <ul>
+                
+                <li> <a href="">HOME</a>
+                    </li>
+                <li> <a href="">OUR STORY</a></li>
+                <li> <a href="">SHOP</a></li>
+                <li> <a href="">CONTACT</a></li>
+            </ul>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0747/2028/0885/files/Cart.png?v=1680896130" alt="" srcset="">
+            </div>
+        </nav>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
