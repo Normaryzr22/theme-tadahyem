@@ -1,4 +1,43 @@
-{% schema %}
+{{ 'index.css' | asset_url | stylesheet_tag }}
+<!-- section informative_all -->
+<section class="standard">
+    <div class="informative_all">
+        <div class="informative_all_section">
+            <img src="img/Image.png" alt="">
+            <div class="conteiner" >
+                <div class="content">
+                    <div class="informative_all_title">High quality ingredients
+                    </div>
+                    <p class="informative_all_text">Not to brag, but we don’t take shortcuts. We bring dried chickpeas in-house and soak them ourselves so that we can produce our homemade falafels and hummus using the most natural ingredients. Combine that with our fresh selection of bell peppers, lemons, red onions, and garlic cloves -- and you can taste the difference. We don’t cut corners, we cut fresh ingredients.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="informative_all_section">
+            <div class="conteiner" >
+                <div class="content">
+                    <div class="card_autor informative_all_title">A meal packed with plant-based protein 
+                    </div>
+                    <p class="card_text">At 7.5 oz our wraps are the largest in the land. With 13-16g of plant-based protein per serving plus 11g of fiber, our falafels will keep you feeling full and satisfied for longer. You won’t need another wrap – you’ll want another wrap. Take that you puny snack wraps.
+                    </p>
+                </div>
+            </div>
+            <img class="img" src="img/patty_img 1.png" alt="">
+        </div>
+        
+        <div class="informative_all_section">
+            <img class="img_s" src="img/eatthisnotthat_badge 1.png" alt="">
+            <div class="conteiner" >
+                <div class="content">
+                    <div class="informative_all_title">Featured in Eat This, Not That</div>
+                    <p class="informative_all_text">"This product is rich in fiber and fully plant-based, while being made from whole food ingredients. Rich in fiber, protein, and healthy fat, it will keep you satisfied as a meal and give you all the decadent flavors you crave when dining out!"</p>
+                    <div class="informative_all_autor"> - Amy Shapiro MS, RD, CDN</div>
+                    <input type="button">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>{% schema %}
   {
     "name": "Section name",
     "settings": []
